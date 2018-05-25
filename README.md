@@ -5,6 +5,8 @@ Adding on, i have developed some functions for GSM modem for sending SMS, readin
 
 To get them to work, make sure you have comgt utility installed on your linux. If not, you can install it by sudo apt-get install comgt. If you can communicate with your GSM modem via AT commands, that means you are ready to run these scripts.
 
+1) First Script function is the sendSMS.sh for sending SMS. 
+
 ![alt text](https://github.com/pratikfarkase94/GSM-modem-SMS-Parser-Bash-Openwrt/blob/master/sendSMS.png)
 
 
