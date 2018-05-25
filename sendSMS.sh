@@ -28,4 +28,5 @@
 	echo -e "###### SMS Not Sent, Try Again ######"
 	echo -e "\n"
 	fi
+	rm status.txt sim.txt
 
