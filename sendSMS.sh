@@ -1,5 +1,6 @@
 #!/bin/bash
-                                                                                                  
+# Run this file as 
+	
         comgt > sim.txt                                                                                                                     
         if grep -w -q "ERROR" sim.txt; then                                                                                                       
         echo -e "\n"                                                                                                                            
