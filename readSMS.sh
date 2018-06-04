@@ -1,4 +1,5 @@
 #!/bin/bash
+# Run this file as root@Openwrt:# bash readSMS.sh
 
 
 	echo -e "Checking SIM CARD Status, "                                                                                                    
