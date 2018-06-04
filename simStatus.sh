@@ -1,4 +1,5 @@
 #!/bin/bash
+# Run this file as root@Openwrt:# bash simStatus.sh
 	
 	echo -e "\n"	
 	echo -e "Checking SIM CARD status\n"	
