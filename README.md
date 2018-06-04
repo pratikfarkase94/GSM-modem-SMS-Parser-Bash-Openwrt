@@ -10,3 +10,41 @@ To get them to work, make sure you have comgt utility installed on your linux. I
 ![alt text](https://github.com/pratikfarkase94/GSM-modem-SMS-Parser-Bash-Openwrt/blob/master/sendSMS.png)
 
 
+2) Second Script function is the readSMS.sh for reading and parsing SMS. Run the script as root@Openwrt:# bash readSMS.sh, It will first check if the SIM Card has been inserted, if not then it will throw SIM error message and terminate. If it detects SIM, it will first change the SMS mode to text mode and then start parsing and reading messages one by one in the manner like:-
+
+                                   Total number of received messages = <number of messages>
+                                   Message : <MessageNumber>
+                                   Number  : <Sender's Number>
+                                   Status  : <READ/UNREAD>
+                                   Date    : <Message arrival date>
+                                   Time    : <Message arrival Time>
+                                   Message : <Message Text>
+                                   
+   See the Picture below for better clarity
+   
+   ![alt text](https://github.com/pratikfarkase94/GSM-modem-SMS-Parser-Bash-Openwrt/blob/master/readSMS.png)
+ 
+ 
+3) Third Script function is the deleteSMS.sh for Deleting SMS. Run the script as root@Openwrt:# bash deleteSMS.sh, It will first check if the SIM Card has been inserted, if not then it will throw SIM error message and terminate. If it detects SIM, it will ask you for the message number to be deleted and will delete the message with message number you entered. See the Picture below for better clarity
+
+![alt text](https://github.com/pratikfarkase94/GSM-modem-SMS-Parser-Bash-Openwrt/blob/master/deleteSMS.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
