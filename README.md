@@ -22,7 +22,7 @@ To get them to work, make sure you have comgt utility installed on your linux. I
                                    
    See the Picture below for better clarity
    
-   ![alt text](https://github.com/pratikfarkase94/GSM-modem-SMS-Parser-Bash-Openwrt/blob/master/readSMS.png)
+![alt text](https://github.com/pratikfarkase94/GSM-modem-SMS-Parser-Bash-Openwrt/blob/master/readSMS.png)
  
  
 3) Third Script function is the deleteSMS.sh for Deleting SMS. Run the script as root@Openwrt:# bash deleteSMS.sh, It will first check if the SIM Card has been inserted, if not then it will throw SIM error message and terminate. If it detects SIM, it will ask you for the message number to be deleted and will delete the message with message number you entered. See the Picture below for better clarity
@@ -33,6 +33,13 @@ To get them to work, make sure you have comgt utility installed on your linux. I
 4) Fourth Script function is the sigInfo.sh for Getting signal strength. Run the script as root@Openwrt:# bash sigInfo.sh. The function will return the signal strength as numerical value as well as alphabetical. See the Picture below for better clarity
 
 ![alt text](https://github.com/pratikfarkase94/GSM-modem-SMS-Parser-Bash-Openwrt/blob/master/sigInfo.png)
+
+
+5) Fifth Script function is the simStatus.sh for Getting SIM card status. Run the script as root@Openwrt:# bash sigInfo.sh. The function will return the status of SIM card. If the SIM is inserted and if it detects, then it tells that SIM card is inserted, if not inserted then throws you error of SIM card not inserted. See the Picture below for better clarity
+
+![alt text](https://github.com/pratikfarkase94/GSM-modem-SMS-Parser-Bash-Openwrt/blob/master/simStatus.png)
+
+
 
 
 
