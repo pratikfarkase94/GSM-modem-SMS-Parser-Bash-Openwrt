@@ -30,6 +30,11 @@ To get them to work, make sure you have comgt utility installed on your linux. I
 ![alt text](https://github.com/pratikfarkase94/GSM-modem-SMS-Parser-Bash-Openwrt/blob/master/deleteSMS.png)
 
 
+4) Fourth Script function is the sigInfo.sh for Getting signal strength. Run the script as root@Openwrt:# bash sigInfo.sh. The function will return the signal strength as numerical value as well as alphabetical. See the Picture below for better clarity
+
+![alt text](https://github.com/pratikfarkase94/GSM-modem-SMS-Parser-Bash-Openwrt/blob/master/sigInfo.png)
+
+
 
 
 
