@@ -5,7 +5,7 @@ Adding on, i have developed some functions for GSM modem for sending SMS, readin
 
 To get them to work, make sure you have comgt utility installed on your linux. If not, you can install it by sudo apt-get install comgt. If you can communicate with your GSM modem via AT commands, that means you are ready to run these scripts.
 
-1) First Script function is the sendSMS.sh for sending SMS. 
+1) First Script function is the sendSMS.sh for sending SMS. Run the script as root@Openwrt:# bash sendSMS.sh, It will first check if the SIM Card has been inserted, if not then it will throw SIM error message and terminate. If it detects SIM, it will first change the SMS mode to text mode and then prompt you for destination number and then the message text. If it send SMS successfully, it will throw ####SMS SENT#### or if not then ###SMS Not Sent###. See the picture below for more clarity.
 
 ![alt text](https://github.com/pratikfarkase94/GSM-modem-SMS-Parser-Bash-Openwrt/blob/master/sendSMS.png)
 
