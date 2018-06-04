@@ -1,4 +1,5 @@
 #!/bin/bash
+# Run this file as root@Openwrt:# bash deleteSMS.sh
 
 	echo -e "\n"
 	echo -e "Enter the Message Number to Delete\n\n--->\c"
