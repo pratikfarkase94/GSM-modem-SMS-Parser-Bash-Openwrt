@@ -1,5 +1,6 @@
 #!/bin/bash
 # Run this file as root@Openwrt:# bash sendSMS.sh
+# Authored by - Pratik Farkase
 	
         comgt > sim.txt                                                                                                                     
         if grep -w -q "ERROR" sim.txt; then                                                                                                       
