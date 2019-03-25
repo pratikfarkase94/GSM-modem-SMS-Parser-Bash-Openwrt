@@ -1,5 +1,6 @@
 #!/bin/bash
 # Run this file as root@Openwrt:# bash sigInfo.sh
+# Authored by - Pratik Farkase
 
 	a="0"
 	comgt sig > siginfo.txt
